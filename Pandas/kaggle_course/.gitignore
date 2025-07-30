@@ -1,0 +1,14 @@
+.venv
+input/
+data/
+datasets/
+*.csv
+*.json
+*.parquet
+*.xlsx
+*.zip
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+# Python cache
+__pycache__/
+*.pyc
