@@ -1,0 +1,9 @@
+__pycache__
+.ipynb_checkpoints
+.venv
+datasets/
+*.ipynb
+*.csv
+.git
+.gitignore
+README.md

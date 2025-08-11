@@ -12,3 +12,4 @@ datasets/
 # Python cache
 __pycache__/
 *.pyc
+*.mp4
