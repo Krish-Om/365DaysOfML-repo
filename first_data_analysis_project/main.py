@@ -14,7 +14,6 @@ app = FastAPI(
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"])
 model = joblib.load("ML_model/Logistic_regression.pkl")
 
-
 class PassengerData(BaseModel):
     Pclass: int
     Sex_encoded: int
